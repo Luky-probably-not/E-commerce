@@ -10,7 +10,7 @@
     margin: 0;
     padding: 0;
   }
-  
+  /* Début de nav bar */
   header {
     background-color: white;
     height: 100px;
@@ -69,6 +69,35 @@
         margin-left: 10px;
        
     }
- 
+    /* fin de nav bar */
+
+    /* Début de la section */
+    .container{
+        background-color: #eee;
+        margin: 50px auto;
+        display: grid;
+        grid-template-rows: 150px 150px;
+        grid-template-columns: 150px ;
+        grid-row-gap: 30px;
+        grid-column-gap:30px;
+        
+      }
+      
+      .items {
+        padding: 20px;
+        font-size: 50px;
+      }
+      
+      .item1{
+        background: pink;
+      }
+      
+      .item2{
+        background: teal;
+      }
+      .item3{
+        background: yellow;
+      }
+      
   
   
