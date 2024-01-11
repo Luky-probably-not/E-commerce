@@ -20,7 +20,7 @@
   header nav h1 {
     font-size: 30px;
     font-weight: bold;
-    margin-right: 40px;
+    margin-right: 80px;
   }
   
   header nav {
@@ -36,7 +36,7 @@
   
   header nav a {
     padding: 10px;
-    margin: 10px;
+    margin-right: 25px;
     background-color: #fff;
     color: #222;
     text-decoration: none;
@@ -52,11 +52,22 @@
         background: #F0F0F0;
         background: color(display-p3 0.94 0.94 0.94);
         display: flex;
-        width: 800px;
+        width: 825px;
         height: 40px;
-        margin-left: 40px;
+       
+        padding: 5px;
+        margin-left: 200px;
     }
-  
+    
+    header nav .elements {
+       margin-left: -100px;
+     
+    }
+
+    header nav .elements i {
+        margin-left: 10px;
+       
+    }
   main {
     display: flex;
     flex-direction: column;
