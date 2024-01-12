@@ -30,8 +30,6 @@ header nav {
   margin-left: 100px;
   margin-right: 100px;
   
-
-
 }
 
 header nav a {
@@ -74,7 +72,7 @@ header nav a {
 
   /* Début de la section */
   .container{
-      background-color: #eee;
+      background-color: none;
       margin: 50px auto;
       display: grid;
       grid-template-rows: 150px 150px;
@@ -91,36 +89,37 @@ header nav a {
     
     .item1{
       background: none;
+      border-radius: 30px;
     }
     
     .item2{
       background: none;
+      border-radius: 30px;
     }
     .item3{
       background: none;
+      border-radius: 30px;
+    }
+    .item4{
+      background: none;
+      margin-left: 180px;
+      margin-top: -600px;
+      width: 444px;
+      height: 530px;
+    }
+
+    .produit {
+     
+      margin-left: 80px;
+      
     }
     /* fin de la section */
+    
+    /* desc */
 
-    ul {
-      list-style: none;
-      margin: 0;
-      padding: 0;
-      display: grid;
-      grid-template-columns: 0.7fr 0.7fr;
-      grid-template-rows: 1fr 1fr 1fr;   
-      gap: 30px;
+    .desc {
+      background-color: aqua;
+      width: 500px;
     }
-    
-    li {
-      margin-bottom: 1rem;
-    }
-    
-    h2 {
-      font-size: 1.2rem;
-      margin-bottom: 0.5rem;
-    }
-    
-    p {
-      margin-bottom: 0.5rem;
-    }
-
+   
+      
