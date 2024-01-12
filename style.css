@@ -98,6 +98,29 @@
       .item3{
         background: yellow;
       }
+      /* fin de la section */
+
+      ul {
+        list-style: none;
+        margin: 0;
+        padding: 0;
+        display: grid;
+        grid-template-columns: 0.7fr 0.7fr;
+        grid-template-rows: 1fr 1fr 1fr;   
+        gap: 30px;
+      }
       
+      li {
+        margin-bottom: 1rem;
+      }
+      
+      h2 {
+        font-size: 1.2rem;
+        margin-bottom: 0.5rem;
+      }
+      
+      p {
+        margin-bottom: 0.5rem;
+      }
   
   
