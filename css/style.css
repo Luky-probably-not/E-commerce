@@ -1,0 +1,53 @@
+body {
+    font-family: Arial;
+}
+
+.star {
+    color:#FFC300;
+    grid-area:star;
+}
+.reviews {
+    display:grid;
+    justify-content: center;
+    grid-template-areas: 
+    "comments comments"
+    "comments comments"
+    "comments comments";
+    row-gap: 40px;
+    column-gap: 40px;
+}
+
+.comments {
+    display:grid;
+    grid-template-areas: 
+    "star"
+    "Name"
+    "text"
+    "date";
+    width:540px;
+    height: 150px;
+}
+
+.Name {
+    font-weight:700;
+    font-size:20px;
+    grid-area:Name;
+}
+
+.text {
+    font-size:16px;
+    font-weight:400;
+    grid-area:text;
+    color:rgba(0, 0, 0, 0.6)
+}
+
+.date {
+    font-size: 16px;
+    font-weight:900;
+    color:rgba(0, 0, 0, 0.6);
+    grid-area:date;
+}
+
+.allreviews {
+    
+}
