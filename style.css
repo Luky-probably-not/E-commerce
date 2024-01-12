@@ -120,6 +120,8 @@ header nav a {
     .desc {
       background-color: aqua;
       width: 500px;
+      margin-left: 800px;
+      display: flex;
     }
    
       
