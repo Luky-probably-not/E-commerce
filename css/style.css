@@ -32,6 +32,9 @@ body {
     border-radius: 20px;
     padding:10px;
 }
+.comments:hover {
+    transform: scale(1.1);
+}
 
 .Name {
     font-weight:700;
