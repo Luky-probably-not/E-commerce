@@ -6,7 +6,9 @@ body {
     color:#FFC300;
     grid-area:star;
 }
+
 .reviews {
+    margin-top:50px;
     display:grid;
     justify-content: center;
     grid-template-areas: 
@@ -26,28 +28,58 @@ body {
     "date";
     width:540px;
     height: 150px;
+    border:2px solid rgb(224, 224, 224);
+    border-radius: 20px;
+    padding:10px;
 }
 
 .Name {
     font-weight:700;
     font-size:20px;
+    width:540px;
     grid-area:Name;
+
 }
 
 .text {
     font-size:16px;
     font-weight:400;
     grid-area:text;
-    color:rgba(0, 0, 0, 0.6)
+    color:rgba(0, 0, 0, 0.6);
+
 }
 
 .date {
     font-size: 16px;
     font-weight:900;
     color:rgba(0, 0, 0, 0.6);
-    grid-area:date;
+    grid-area:date;    
+
 }
 
 .allreviews {
-    
+    margin-left:200px;
+}
+
+.writeBox {
+    margin-left:800px;
+    border-radius:20px;
+    border:0px solid rgb(0.185 0.3428 0.8969);
+    background: #1F59ED;
+    width:166px;
+    height:48px;
+}
+
+.writeBox:hover {
+    transform:scale(1.1);
+}
+
+.write {
+    margin-top:10px;
+    margin-left:10px;
+    width:133px;
+    height:23px;
+    color:white;
+    font-weight:900;
+    font-size:16px;
 }
