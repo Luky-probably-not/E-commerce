@@ -21,6 +21,15 @@ nav {
   border-bottom: 2px solid rgba(0, 0, 0, 0.10);
   padding: 20px;
 }
+
+nav .logo {
+  cursor: pointer;
+}
+
+nav .logo:hover {
+  transform: scale(1.1);
+  transition: 0.5s;
+}
 nav ul {
   
   list-style: none;
@@ -36,6 +45,14 @@ nav a {
   text-decoration: none;
   margin-right: 30px;
  
+}
+
+nav a:hover {
+  color: #1F59ED;
+  color: color(display-p3 0.1216 0.349 0.9294);
+  font-size: bold;
+  transform: scale(1.2);
+  transition: 0.3s;
 }
 
 .search-container {
@@ -79,6 +96,23 @@ background: #F0F0F0;
   margin: auto;
   
 }
+.grid-item .item1:hover {
+  transform: scale(1.1);
+  transition: 0.5s;
+}
+.grid-item .item2:hover {
+  transform: scale(1.1);
+  transition: 0.5s;
+}
+.grid-item .item3:hover {
+  transform: scale(1.1);
+  transition: 0.5s;
+}
+.grid-item .item4:hover {
+  transform: scale(1.1);
+  transition: 0.5s;
+}
+
 
 .contenu .description {
   display: grid;
@@ -128,6 +162,9 @@ line-height: normal;
   margin-bottom: 20px;
 }
 
+.choices {
+  cursor: pointer;
+}
 
 .prix1{
   color: #000;
@@ -180,6 +217,13 @@ line-height: normal;
   
 }
 
+.size-buttons button:hover {
+  background: #1F59ED;
+  background: color(display-p3 0.1216 0.349 0.9294);
+  color: #fff;
+  color: color(display-p3 1 1 1);
+}
+
 hr {
   border: 1px solid #ccc;
  ;
@@ -198,6 +242,13 @@ cursor: pointer;
   
 } 
 
+.quantity-btn:hover {
+  background: #1F59ED;
+  background: color(display-p3 0.1216 0.349 0.9294);
+  color: #fff;
+  color: color(display-p3 1 1 1);
+}
+
 .add-to-cart-btn {
   border-radius: 62px;
   background: #ccc;
@@ -209,6 +260,13 @@ padding: 16px 20px;
 width: 450px;
 cursor: pointer;
 
+}
+
+.add-to-cart-btn:hover {
+  background: #1F59ED;
+  background: color(display-p3 0.1216 0.349 0.9294);
+  color: #fff;
+  color: color(display-p3 1 1 1);
 }
 
 .grid-container {
@@ -262,16 +320,18 @@ body {
   grid-area:date;    
 }
 
+
 .write {
   color:white;
   font-weight:900;
   font-size:16px;
+ 
 }
 @media only screen and (min-width:1184px){
 .reviews {
   margin-top:50px;
   display:grid;
-  justify-content: center;
+  margin-left: 140px;
   grid-template-areas: 
   "comments comments"
   "comments comments"
@@ -312,12 +372,12 @@ body {
 
 .allreviews {
   display:flex;
-  justify-content: center;
-  margin-right:20px;
+  
+ margin-left: 145px;
 }
 
 .writeBox {
-  margin-left:800px;
+  margin-left:1150px;
   border-radius:20px;
   border:0px solid rgb(0.185 0.3428 0.8969);
   background: #1F59ED;
@@ -334,6 +394,7 @@ body {
   margin-left:10px;
   width:133px;
   height:23px;
+  
 
 }
 }
