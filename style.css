@@ -184,7 +184,7 @@ hr {
   border: 1px solid #ccc;
  ;
 }
-button .quantity-btn {
+.quantity-btn {
   border-radius: 62px;
   background: #ccc;
   background: color(display-p3 0.94 0.94 0.94);
@@ -198,7 +198,7 @@ cursor: pointer;
   
 } 
 
-button .add-to-cart-btn {
+.add-to-cart-btn {
   border-radius: 62px;
   background: #ccc;
   background: color(display-p3 0.94 0.94 0.94);
