@@ -96,6 +96,21 @@ background: #F0F0F0;
   margin: auto;
   
 }
+
+.grid-item .item1 {
+ border-radius: 20px;
+}
+
+.grid-item .item2 {
+  border-radius: 20px;
+}
+
+.grid-item .item3 {
+  border-radius: 20px;
+}
+
+
+
 .grid-item .item1:hover {
   transform: scale(1.1);
   transition: 0.5s;
