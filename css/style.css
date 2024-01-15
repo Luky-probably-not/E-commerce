@@ -5,14 +5,23 @@ body {
 }
 
 
-
-header {
+@media only screen and (min-width:1184px) {
+  header {
   display: flex;
   margin: 20px 120px;
   align-items: center;
   background-color: none;
   color: black;
   padding: 10px;
+
+  .burger-check {
+    position:absolute;
+    display:none;
+  }
+
+  .burger-menu {
+    display:none;
+  }
 }
 
 /* nav */
@@ -22,6 +31,7 @@ nav {
   align-items: center;
   border-bottom: 2px solid rgba(0, 0, 0, 0.10);
   padding: 20px;
+  margin-left:-50px
 }
 
 nav .logo {
@@ -37,8 +47,8 @@ nav ul {
   list-style: none;
   margin-left: 200px;
   margin-right: 20px;
- font-size: 16px;
- display: flex;
+  font-size: 16px;
+  display: flex;
   align-items: center;
 }
 
@@ -90,6 +100,57 @@ background: #F0F0F0;
   right: 10px;
   flex-wrap: wrap;
 }
+}
+
+@media only screen and (max-width:1194px) {
+   header {
+    display:flex;
+   }
+
+   .logo {
+    margin-top:-20px;
+    margin-left:40px;
+   }
+
+   .burger.menu {
+    display:block;
+   }
+
+   .burger-check {
+    display:none
+   }
+
+   .nav {
+    display:none;
+    flex-direction: column;
+    width:100%;
+   }
+
+   .burger-checkbox:checked + .burger.menu + .nav {
+    display:flex;
+    color:red;
+   }
+
+
+  .search-input{
+    display:none;
+  }
+
+  .search-icon{
+    display:none;
+  }
+
+  .additional-icons {
+    display: flex;
+    gap: 5px;
+    position: absolute;
+    right: 10px;
+    flex-wrap: wrap;
+    margin-top:-40px;
+    margin-right:25px;
+  }
+}
+
 
 /* fin nav */
 .contenu {
@@ -137,6 +198,7 @@ background: #F0F0F0;
   gap: 20px;
   margin: 20px 120px;
   align-items: center;
+  margin-left:100px;
 }
   
 .description {
@@ -312,7 +374,7 @@ cursor: pointer;
 }
 
   
- 
+/*Reviews */
 body {
   font-family: Arial;
 }
@@ -354,13 +416,13 @@ body {
 .reviews {
   margin-top:50px;
   display:grid;
-  margin-left: 140px;
+  margin-left: 55px;
   grid-template-areas: 
   "comments comments"
   "comments comments"
   "comments comments";
   row-gap: 40px;
-  column-gap: 40px;
+  column-gap: 20px;
 }
 
 .comments {
@@ -396,11 +458,11 @@ body {
 .allreviews {
   display:flex;
   
- margin-left: 145px;
+ margin-left: 100px;
 }
 
 .writeBox {
-  margin-left:1150px;
+  margin-left:1000px;
   border-radius:20px;
   border:0px solid rgb(0.185 0.3428 0.8969);
   background: #1F59ED;
@@ -465,17 +527,18 @@ body {
   }
 }
 
-@media screen and (max-width:740px){
+@media only screen and (max-width:740px){
   .reviews {
       margin-top: 27px;
       display:flex;
       flex-direction: column;
       gap:23px;
+      margin-left:5px
   }
   .comments {
       display:flex;
       flex-direction: column;
-      width:358px;
+      width:330px;
       height:169px;
       border:1px solid rgb(224, 224, 224);
       border-radius: 20px;
@@ -486,15 +549,16 @@ body {
   .allreviews {
       display:flex;
       justify-content: left;
-      width: 500px;
+      width: 600px;
       height:27px;
       font-size:20px;
-      font-weight:700
+      font-weight:700;
+      margin-left:20px;
   }
 
   .writeBox {
       margin-top:-5px;
-      margin-left:180px;
+      margin-left:-20px;
       border-radius:20px;
       border:0px solid rgb(0.185 0.3428 0.8969);
       background: #1F59ED;
