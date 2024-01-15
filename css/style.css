@@ -195,6 +195,7 @@ line-height: normal;
 }
 .prix2 {
   color: rgba(0, 0, 0, 0.30);
+  text-decoration: line-through;
 
 color: color(display-p3 0 0 0 / 0.30);
 
