@@ -308,7 +308,7 @@ cursor: pointer;
   padding: 20px;
   width: 700px;
 }
-  /* jb */
+
   
  
 body {
@@ -463,3 +463,46 @@ body {
   }
 }
 
+@media screen and (max-width:740px){
+  .reviews {
+      margin-top: 27px;
+      display:flex;
+      flex-direction: column;
+      gap:23px;
+  }
+  .comments {
+      display:flex;
+      flex-direction: column;
+      width:358px;
+      height:169px;
+      border:1px solid rgb(224, 224, 224);
+      border-radius: 20px;
+      padding:24px;
+      gap:10px
+  }
+
+  .allreviews {
+      display:flex;
+      justify-content: left;
+      width: 500px;
+      height:27px;
+      font-size:20px;
+      font-weight:700
+  }
+
+  .writeBox {
+      margin-top:-5px;
+      margin-left:180px;
+      border-radius:20px;
+      border:0px solid rgb(0.185 0.3428 0.8969);
+      background: #1F59ED;
+      width:113px;
+      height:40px;
+  }
+
+  .write {
+      font-size:12px;
+      font-weight: 500;
+  }
+  
+}
