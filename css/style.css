@@ -1,8 +1,10 @@
 body {
-  font-family: 'Arial', sans-serif;
+  font-family: 'Anek Bangla', sans-serif;;
   margin: 0;
   padding: 0;
 }
+
+
 
 header {
   display: flex;
@@ -418,7 +420,7 @@ body {
 }
 }
 
-@media only screen and (min-width:450px) and (max-width:1184px){
+@media only screen and (min-width:425px) and (max-width:1184px){
   .reviews {
       margin-top: 27px;
       display:flex;
@@ -460,3 +462,4 @@ body {
       font-weight: 500;
   }
 }
+
