@@ -239,6 +239,7 @@ padding: 16px 20px;
 margin-right: 40px;
 border: none;
 cursor: pointer;
+font-weight: 900;
   
 } 
 
@@ -247,6 +248,7 @@ cursor: pointer;
   background: color(display-p3 0.1216 0.349 0.9294);
   color: #fff;
   color: color(display-p3 1 1 1);
+  
 }
 
 .add-to-cart-btn {
